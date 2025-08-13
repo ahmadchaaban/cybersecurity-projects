@@ -1,6 +1,6 @@
 # Acme HealthTech – Mobile Security Business Case & Policy Proposal
-**Type:** Policy & Strategy • **Focus:** HIPAA-aligned mobile security (MDM, MFA, encryption)  
-**Role:** <your role, e.g., Financial analysis + schedule/timeline> • **When:** <term/year>
+Policy & Strategy • **Focus:** HIPAA-aligned mobile security (MDM, MFA, encryption)  
+Summer/2025
 
 ## Overview
 Comprehensive mobile security program and policy for a healthcare org with BYOD/remote access, aligned to HIPAA and industry best practices.
