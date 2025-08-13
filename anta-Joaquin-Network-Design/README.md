@@ -1,6 +1,6 @@
 # Santa Joaquin Fiber Network – Secure Topology (Visio)
-**Type:** Network Architecture • **Focus:** Segmentation, VPN, core/distribution/access  
-**When:** <term/year> • **File:** `Network-Design.vsdx`
+Network Architecture • **Focus:** Segmentation, VPN, core/distribution/access  
+Summer/2025 • **File:** `Network-Design.vsdx`
 
 ## Overview
 Logical secure network design for a regional ISP scenario. Emphasizes segmentation, VPN gateways, and mgmt-plane isolation.
