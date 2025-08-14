@@ -1,6 +1,6 @@
 # All-Pro Real Estate – Relational Database 
  Data Design & Implementation • **Focus:** ERD, constraints, data integrity  
-<Summer/2025>
+Summer/2025
 
 Overview
 Normalized schema for a real-estate scenario (clients, properties, agents, transactions). ERD in MySQL Workbench; prototype in MS Access.
