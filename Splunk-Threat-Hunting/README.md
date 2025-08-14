@@ -33,11 +33,6 @@ Query to confirm data is being received:
 index=main sourcetype=XmlWinEventLog
 Result: Event logs successfully ingested.
 
- Step 2 – Count Security Events by Source
-index=main (source="WinEventLog:Security" OR source="XmlWinEventLog:Security")
-| stats count by source
-
-Result: Security logs from Windows Event Log found.
 
 Step 3 – Detect Failed Logon Attempts
 
@@ -45,7 +40,7 @@ index=main sourcetype="XmlWinEventLog:Security" EventCode=4625
 | table _time TargetUserName IpAddress WorkstationName FailureReason
 | sort - _time
 
-Step 4 – Identify Brute Force Attempts
+Step 43 – Identify Brute Force Attempts
 
 index=main sourcetype="XmlWinEventLog:Security" EventCode=4625
 | bin _time span=5m
