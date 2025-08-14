@@ -13,3 +13,6 @@ A curated set of completed projects demonstrating policy development, secure net
 3. **All-Pro Real Estate – Relational Database**  
    ERD + Access implementation with referential integrity and sample queries.  
    ➜ [/All-Pro-Real-Estate-Database](./All-Pro-Real-Estate-Database)
+Splunk Threat Hunting Lab – SIEM Detection Queries
+   Windows event log & Sysmon monitoring to detect failed logons, brute force attacks, and suspicious PowerShell execution.
+   ➜ [Splunk-Threat-Hunting](Splunk-Threat-Hunting)
