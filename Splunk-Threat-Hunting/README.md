@@ -1,6 +1,7 @@
 # Splunk Threat Hunting Lab
 
-## Overview
+Overview
+
 This lab demonstrates the use of Splunk for **threat hunting** by analyzing Windows Event Logs and Sysmon data to detect:
 - Failed logon attempts
 - Brute force attacks
@@ -10,14 +11,16 @@ The project simulates malicious activity and uses Splunk Search Processing Langu
 
 ---
 
-## Objectives
+Project Objectives
+
 - Ingest Windows Security Event Logs and Sysmon logs into Splunk.
 - Write SPL queries to detect security events.
 - Visualize and interpret log data to identify malicious behavior.
 
 ---
 
-## Tools & Technologies
+Tools Used
+
 - **Splunk Enterprise** (SIEM)
 - **Windows Event Log**
 - **Sysmon (System Monitor)**
@@ -25,7 +28,7 @@ The project simulates malicious activity and uses Splunk Search Processing Langu
 
 ---
 
-## Steps & Key Findings
+Steps
 
 Step 1 – Verify Event Log Ingestion
 Query to confirm data is being received:
