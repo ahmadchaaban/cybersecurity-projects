@@ -32,15 +32,18 @@ Query to confirm data is being received:
 
 index=main sourcetype=XmlWinEventLog
 Result: Event logs successfully ingested.
+![Step 1](Images/step1.png)
 
-
-Step 3 – Detect Failed Logon Attempts
+Step 2 – Detect Failed Logon Attempts
 
 index=main sourcetype="XmlWinEventLog:Security" EventCode=4625
 | table _time TargetUserName IpAddress WorkstationName FailureReason
 | sort - _time
 
-Step 43 – Identify Brute Force Attempts
+Result: Multiple failed logon attempts detected for user testuser.
+![Step 2](Images/step2.png)
+
+Step 3 – Identify Brute Force Attempts
 
 index=main sourcetype="XmlWinEventLog:Security" EventCode=4625
 | bin _time span=5m
@@ -50,8 +53,10 @@ index=main sourcetype="XmlWinEventLog:Security" EventCode=4625
 | sort - _time
 
 Result: testuser had 6 failed login attempts in under 5 minutes — possible brute force activity.
+![Step 3](Images/step3.png)
 
-Step 5 – Detect Suspicious PowerShell Execution
+
+Step 4 – Detect Suspicious PowerShell Execution
 
 index=main source="WinEventLog:Microsoft-Windows-Sysmon/Operational" EventCode=1
 | where like(Image, "%\\powershell.exe")
@@ -59,6 +64,8 @@ index=main source="WinEventLog:Microsoft-Windows-Sysmon/Operational" EventCode=1
          ParentImage="C:\\Windows\\explorer.exe"
 
 Result: PowerShell execution detected originating from explorer.exe — unusual for normal operations.
+![Step 4](Images/step4.png)
+
 
 Summary of findings
   Effective log ingestion and parsing are critical for accurate detection
