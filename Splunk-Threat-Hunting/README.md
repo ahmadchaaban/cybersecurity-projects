@@ -41,7 +41,7 @@ index=main sourcetype="XmlWinEventLog:Security" EventCode=4625
 | sort - _time
 
 Result: Multiple failed logon attempts detected for user testuser.
-![Step 2](Images/step2.png)
+![Step 2](images/step2.png)
 
 Step 3 – Identify Brute Force Attempts
 
@@ -53,7 +53,7 @@ index=main sourcetype="XmlWinEventLog:Security" EventCode=4625
 | sort - _time
 
 Result: testuser had 6 failed login attempts in under 5 minutes — possible brute force activity.
-![Step 3](Images/step3.png)
+![Step 3](images/step3.png)
 
 
 Step 4 – Detect Suspicious PowerShell Execution
@@ -64,7 +64,7 @@ index=main source="WinEventLog:Microsoft-Windows-Sysmon/Operational" EventCode=1
          ParentImage="C:\\Windows\\explorer.exe"
 
 Result: PowerShell execution detected originating from explorer.exe — unusual for normal operations.
-![Step 4](Images/step4.png)
+![Step 4](images/step4.png)
 
 
 Summary of findings
