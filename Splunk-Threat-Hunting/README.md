@@ -9,7 +9,7 @@ This lab demonstrates the use of Splunk for **threat hunting** by analyzing Wind
 
 The project simulates malicious activity and uses Splunk Search Processing Language (SPL) queries to identify and analyze events.
 
----
+
 
 Project Objectives
 
@@ -17,7 +17,7 @@ Project Objectives
 - Write SPL queries to detect security events.
 - Visualize and interpret log data to identify malicious behavior.
 
----
+
 
 Tools Used
 
@@ -26,7 +26,7 @@ Tools Used
 - **Sysmon (System Monitor)**
 - **PowerShell** (for simulation commands)
 
----
+
 
 Steps
 
