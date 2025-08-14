@@ -7,9 +7,6 @@ This lab demonstrates the use of Splunk for **threat hunting** by analyzing Wind
 - Brute force attacks
 - Suspicious PowerShell execution
 
-The project simulates malicious activity and uses Splunk Search Processing Language (SPL) queries to identify and analyze events.
-
-
 
 Project Objectives
 
