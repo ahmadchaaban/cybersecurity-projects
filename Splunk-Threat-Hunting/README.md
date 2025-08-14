@@ -32,7 +32,7 @@ Query to confirm data is being received:
 
 index=main sourcetype=XmlWinEventLog
 Result: Event logs successfully ingested.
-![Step 1](Images/step1.png)
+![Step 1](images/step1.png)
 
 Step 2 – Detect Failed Logon Attempts
 
