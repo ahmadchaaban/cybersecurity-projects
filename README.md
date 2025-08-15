@@ -1,4 +1,4 @@
-# cybersecurity-projects - Ahmad Chaaban
+# cybersecurity-projects
 
 1. **Acme HealthTech – Mobile Security Policy & Business Case**  
    MDM/MFA/encryption strategy aligned to HIPAA, with phased rollout and budget.  
