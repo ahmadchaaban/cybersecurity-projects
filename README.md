@@ -1,7 +1,5 @@
 # cybersecurity-projects - Ahmad Chaaban
-A curated set of completed projects demonstrating policy development, secure network design, and data integrity.
 
-## Projects
 1. **Acme HealthTech – Mobile Security Policy & Business Case**  
    MDM/MFA/encryption strategy aligned to HIPAA, with phased rollout and budget.  
     [/Acme-HealthTech-Security-Policy](./Acme-HealthTech-Security-Policy)
